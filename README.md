@@ -29,7 +29,8 @@ saat waktu `compile-time`. Dengan demikian, sebuah object dalam state ini akan m
 5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
 * Membuat program dengan nama counter_7
 * Menambah beberapa lines of code dalam main.dart seperti berikut
-'''
+
+```
   void _decrementCounter() {
   setState((){
   //Tells the flutter to decrement
@@ -37,7 +38,8 @@ saat waktu `compile-time`. Dengan demikian, sebuah object dalam state ini akan m
   _counter --;
   });
   }
-'''
+```
+
 * Lines of code diatas digunakan untuk memberikan nilai decrement saat menekan 
 tombol -
 * Lalu saya menambahkan beberapa kondisi yang mengatur warna pada saat counter
