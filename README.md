@@ -43,3 +43,31 @@ tombol -
 * Lalu saya menambahkan beberapa kondisi yang mengatur warna pada saat counter
 genap ataupun ganjil. Selain itu, saya juga menambahkan kondisi dimana tombol
 akan meremove tombol - apabila counter bernilai 0
+
+
+### Pertanyaan tugas 8
+1. Jelaskan perbedaan Navigator.push dan Navigator.pushReplacement.
+* Perbedaan terletak pada penampilan route dimana pada Navigator.pushReplacemenet route yang sebelumnya 
+ditampilkan akan dibuang
+* Navigator.push akan menyimpan route di dalam stack
+
+2. Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
+* Scaffold = untuk mengatur layout basic widget
+* Center = mengatur layout widget menjadi center
+* Row = mengatur layout widget berbentuk baris
+
+3. Sebutkan jenis-jenis event yang ada pada Flutter (contoh: onPressed).
+* onSaved
+* onTab
+* onChange
+
+4. Jelaskan bagaimana cara kerja Navigator dalam "mengganti" halaman dari aplikasi Flutter.
+* Navigator berfungsi untuk menyimpan stack dari berbagai route yang digunakan untuk app. 
+Terdapat pop untuk mengarahan kembali ke page sebelumnya, sementara push digunakan untuk berpindah
+ke route yang diberikan
+
+5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
+* Membuat models.dart untuk menampilkan model
+* Membuat drawer.dart untuk menampilkan tampilan menu dalam bentuk hamburger
+* Mengisi form.dart untuk mengisi pemasukan maupun pengeluaran dengan harga dan tanggal
+* Mengisi hasil.dart untuk mengeluarkan hasil dalam bentuk card
