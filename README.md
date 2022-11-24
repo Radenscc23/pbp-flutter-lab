@@ -73,3 +73,26 @@ ke route yang diberikan
 * Membuat drawer.dart untuk menampilkan tampilan menu dalam bentuk hamburger
 * Mengisi form.dart untuk mengisi pemasukan maupun pengeluaran dengan harga dan tanggal
 * Mengisi hasil.dart untuk mengeluarkan hasil dalam bentuk card
+
+### Pertanyaan tugas 9
+1. Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya,
+apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?
+* Kita tetap dapat melakukan pengambilan data JSON. Akan tetapi, akan lebih baik apabila  membuat model
+terlebih dahulu dikarenakan data yang diambil sulit disimpan secara terstruktur
+
+2. Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
+* Inkwell = memberikan behaviour klik pada widgetnya
+* checkBox = mengubah status watched dan not watched
+* Center = menampilkan child widget dengan alignment center
+
+3. Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter.
+* Sebuah data yang difetch pada API endpoint
+* Data tersebut kemudian di decode menjadi bentuk JSON
+* Data dalam JSON kemudian dikonversi dengan model
+* Data dalam bentuk model ditampilkan dalam bentuk Flutter
+
+4. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
+* Membuat models terlebih dahulu untuk menyesuaikan dengan mywatchlist pada tugas 3
+* Membuat page mywatchlist dan mywatchlist detail (sama seperti views.py)
+* Menambahkan const pada drawer.dart untuk dapat menampilkan tampilan dari mywatchlist
+beserta detailnya
